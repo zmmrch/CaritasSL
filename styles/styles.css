@@ -1,0 +1,219 @@
+/*codigos de color
+-------------------------------------------
+Azul = #114E87
+Rojo = #A72124
+*/
+
+/* .container {
+    display: flex;
+} */
+
+/* body{
+    transform: scale(0.7);
+    transform-origin: 0 0;
+ } */
+
+
+/* h2 {
+    color:#114E87;
+    text-align: center;
+    padding-top: 1%;
+} */
+
+.h1 {
+    color:#114E87;
+    font-size: 2.5vw;
+}
+
+.h2 {
+    color:#114E87;
+    font-size: 2.0vw;
+}
+
+.h5 {
+    color:#114E87;
+    font-size: 1.0vw;
+}
+
+.h4, .h3 {
+    font-size: 1.5vw;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item {
+    display: flex; 
+    justify-content: space-between;  
+    padding: 0 70px;
+}
+
+.nav-link:hover {
+    color:red;
+}
+
+/* #navbarCaritas {
+    background-color: rgb(58, 54, 54) !important;
+} */
+
+#logoNavbar {
+    width: 65%;
+}
+
+#btnAsistSocial:hover {
+    filter: grayscale(100%);
+}
+
+/* @media (min-width: 288px){
+    #btnAsistSocial {
+        width: 50em;
+    }
+} */
+
+#btnAsistComida:hover {
+    filter: grayscale(100%);
+}
+
+#btnAsistRopa:hover {
+    filter: grayscale(100%);
+}
+
+#btnAsistPereg:hover {
+    filter: grayscale(100%);
+}
+
+#btnAsistONG:hover {
+    filter: grayscale(100%);
+}
+
+#btnCaritasSocial:hover {
+    filter: grayscale(100%);
+}
+
+
+#c_nuestraLabor {
+    background-image: url("../images/HOMEFONDO1\ \(1400X1396\,7685\).png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/* @media (min-width: 288px){
+    #c_nuestraLabor {
+        background-size: contain;
+        background-repeat: repeat;
+    }
+} */
+
+#c_noticias {
+    background-image: url("../images/HOMEFONDO2\ \(1400X759\,2612\).png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+#c_consultas {
+    background-image: url("../images/HOMEFONDO1\ \(1400X1396\,7685\).png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+#imgFormasColaborar {
+    margin-top: 64%;
+    /* margin-left: 10%; */
+    /* padding-top: 8%;
+    padding-bottom: 25%;   */
+    width: 100%;
+}
+
+#imgDondeEstamos {
+    margin-top: 40.5%;
+    width: 100%;
+}
+
+#imgBotonContactanos {
+    margin-top: 41%;
+    /* margin-right: 10%; */
+    /* padding-top: 1%; */
+    width: 100%;
+}
+
+.logoImgPrincipal{
+  position:absolute;
+  height:auto;
+  width: auto;
+  z-index: 1;
+}
+
+.imgPrincipal
+{
+  position:absolute;
+  height:auto;
+  width:100%;
+  z-index: -1;
+}
+
+
+#contenidoQuienesSomos {
+    background-image: url("../images/quienes_somos/FONDO\ COMPLETO\ QUIENES\ SOMOS\ 1400\ x\ 2524\,4099\ px.png");
+    /* height: 50%; */
+    /* background-attachment: fixed; */
+    width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+/* .parallax {
+    background-image: url("../images/quienes_somos/FOTO\ PRINCIPAL\ QUIENES\ SOMOS\ 1400\ X\ 410px.jpg");
+  
+     height: 100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+
+footer{
+    background-color: #A72124; 
+    color: white;
+    font-size: 2.5vw;
+}
+
+@media (min-width: 1200px){
+    .footer {
+        font-size: 1vw;
+    }
+}
+
+ 
+
+/*@media (min-width: 768px){
+    .h2 {
+        font-size: 2r%;
+     }
+}
+
+@media (min-width: 576px){
+    .h2 {
+        font-size: 1r%;
+     }
+}
+
+@media (min-width: 288px){
+    .h2 {
+        font-size: 1r%;
+     }
+} */
+

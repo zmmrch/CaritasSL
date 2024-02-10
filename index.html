@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Caritas Santos Lugares</title>
+  <link rel="icon" type="image/x-icon" href="" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- link con el archivo de estilos de CSS-->
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar ---------------------------------------------------------------------------------------------------------------------->
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style="padding-left: 5em;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/BOTON HOME LOGO 40 X 37,9 px.png" alt=""
+            style="width: 60%;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/quienes_somos.html">QUIÉNES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">QUÉ HACEMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CÓMO PARTICIPAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CÁRITAS SOCIAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NUESTRA LABOR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrousel ---------------------------------------------------------------------------------------------------------------------->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/FOTOCARRUSEL1PNG.png" class="d-block w-100" alt="..."></img>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/FOTOCARRUSEL2PNG(1400-1320X768).png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/FOTOCARRUSEL3PNG(1400-1320X768).png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Te invitamos a conocer nuestra labor... --------------------------------------------------------------------------------------->
+  <div class="container-fluid" id="c_nuestraLabor">
+    <div class="text-center mb-3">
+      <p class="h3" style="color:#114E87;">Te invitamos a conocer nuestra labor</p>
+      <p class="h3" style="color:#114E87">
+        Todo esto lo hemos logrado gracias a las donaciones hechas por esta
+        maravillosa comunidad
+      </p>
+      <p class="h2" style="color:#114E87">MIL GRACIAS!</p>
+    </div>
+
+    <!-- <div class="container-fluid text-center">
+      <div class="row gx-5">
+        <div class="col-md-4">
+          <a href="#"><img class="img-fluid" src="./images/BOTON ASISTENCIA SOCIAL 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%; " id="btnAsistSocial" /></a>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA DE COMIDA 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%;" id="btnAsistComida" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA DE ROPA 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%; " id="btnAsistRopa" />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gx-5 mt-5 mb-5">
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA AL PEREGRINO 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%; " id="btnAsistPereg" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA A ONGs 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%;" id="btnAsistONG" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON CARITAS SOCIAL 270,3961 X 270,3961 px.png" alt=""
+              style="width: 60%; " id="btnCaritasSocial" />
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-3">
+          <a href="#"><img class="img-fluid" src="./images/BOTON ASISTENCIA SOCIAL 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%; " id="btnAsistSocial" /></a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA DE COMIDA 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%;" id="btnAsistComida" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA DE ROPA 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%; " id="btnAsistRopa" />
+          </a>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row mt-5 mb-5">
+        <div class="col"></div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA AL PEREGRINO 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%; " id="btnAsistPereg" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON ASISTENCIA A ONGs 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%;" id="btnAsistONG" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON CARITAS SOCIAL 270,3961 X 270,3961 px.png" alt=""
+              style="width: 100%; " id="btnCaritasSocial" />
+          </a>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid px-4 text-center">
+      <div class="row gx-5">
+        <div class="col-md-4">
+          <a href="#"><img class="img-fluid" src="./images/BOTON FORMAS DE COLABORAR 141 X 167.png" alt=""
+              id="imgFormasColaborar" /></a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid" src="./images/BOTON DONDE ESTAMOS 155 X 224.png" alt="" id="imgDondeEstamos" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON CONTACTANOS 148 X 200.png" alt="" id="imgBotonContactanos" />
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-3">
+          <a href="#"><img class="img-fluid" src="./images/BOTON FORMAS DE COLABORAR 224 X 157.png" alt="" style="width: 80%;"
+              id="imgFormasColaborar" /></a>
+        </div>
+        <div class="col-3">
+          <a href="#">
+            <img class="img-fluid" src="./images/BOTON DONDE ESTAMOS 224 X 223.png" alt="" id="imgDondeEstamos" style="width: 80%;"/>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <img class="img-fluid" src="./images/BOTON CONTACTANOS 224 X 223.png" alt="" id="imgBotonContactanos" style="width: 80%;"/>
+          </a>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Noticias... --------------------------------------------------------------------------------------------------------------->
+  <div class="container-fluid" id="c_noticias">
+    <p class="h1" style="text-align: center;">NOVEDADES</p>
+    <div id="carouselExampleCaptionsNews" class="carousel slide" data-bs-ride="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col mb-5 mt-5">
+                <div class="card" style="width: auto">
+                  <img class="img-fluid" src="./images/ejemplo.jpg" alt="..." style="width: 85%;display: block; justify-content: center;"/>
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #A72124;">
+                      Título del suceso 1
+                    </h5>
+                    <p class="card-text">
+                    <p style="color: #114E87;">Noviembre 2023</p>
+                    </p>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-danger">Leer más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5 mt-5">
+                <div class="card" style="width: auto">
+                  <img class="img-fluid" src="./images/ejemplo.jpg" alt="..." style="width: 85%; display: block; justify-content: center;"/>
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #A72124;">
+                      Título del suceso 2
+                    </h5>
+                    <p class="card-text">
+                    <p style="color: #114E87;">Noviembre 2023</p>
+                    </p>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-danger">Leer más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5 mt-5">
+                <div class="card" style="width: auto">
+                  <img class="img-fluid" src="./images/ejemplo.jpg" alt="..." style="width: 85%;display: block; justify-content: center;"/>
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #A72124;">
+                      Título del suceso 3
+                    </h5>
+                    <p class="card-text">
+                    <p style="color: #114E87;">Noviembre 2023</p>
+                    </p>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-danger btn">Leer más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5 mt-5">
+                <div class="card" style="width: auto">
+                  <img class="img-fluid" src="./images/ejemplo.jpg" alt="..." style="width: 85%;display: block; justify-content: center;"/>
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #A72124;">
+                      Título del suceso 4
+                    </h5>
+                    <p class="card-text">
+                    <p style="color: #114E87;">Noviembre 2023</p>
+                    </p>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-danger btn">Leer más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsNews"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsNews"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Consultas -------------------------------------------------------------------------------------------------------------->
+  <div class="container-fluid" id="c_consultas">
+    <div class="row">
+      <div class="col" style="padding-left: 5%;">
+        <p class="h2" style="color:#114E87; font-weight: bold;">Consultas:</p>
+        <br>
+        <br>
+        <p class="h3" style="color:#114E87; font-weight: bold;">Solicitar cualquier tipo de asistencia</p>
+        <p class="h4" style="color:#114E87;">de lunes a viernes de 9 a 17hs</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">(011) 6565-6565</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">asistencia@caritasantoslugares.org.ar</p>
+        <br>
+        <br>
+        <p class="h3" style="color:#114E87; font-weight: bold;">Donaciones de cualquier tipo</p>
+        <p class="h4" style="color:#114E87;">de lunes a viernes de 9 a 17hs</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">+549 11- 6565-6565</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">donaciones@caritasantoslugares.org.ar</p>
+        <br>
+        <br>
+        <p class="h3" style="color:#114E87; font-weight: bold;">Alquiler de nuestro salón de eventos</p>
+        <p class="h4" style="color:#114E87;">de lunes a viernes de 9 a 17hs</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">+549 11- 6565-6565</p>
+        <p class="h4" style="color:#114E87; padding-left: 5%;">administracion@caritasantoslugares.org.ar</p>
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="./images/IMAGEN DE ABAJO DE CONSUSLTAS 488 X 394.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer ---------------------------------------------------------------------------------------------------------------->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="text-center">
+        <div class="align-items-center">
+          <a href="" style="color: white;">Política de protección de niños, adolecentes y adultos vulnerables</a>
+        </div>
+        <div class="d-flex justify-content-center fs-2 gap-4 mt-3">
+          <a class="text-white" href="#!"><i class="bi bi-facebook"></i></a>
+          <a class="text-white" href="#!"><i class="bi bi-twitter"></i></a>
+          <a class="text-white" href="#!"><i class="bi bi-linkedin"></i></a>
+          <a class="text-white" href="#!"><i class="bi bi-twitch"></i></a>
+          <a class="text-white" href="#!"><i class="bi bi-tiktok"></i></a>
+        </div>
+        <div class="align-items-center mt-3">
+          Cáritas Lourdes - Santos Lugares / Padre Silberman 1565 (B1676BRK) /
+          Santos Lugares Buenos Aires
+        </div>
+        <div class="align-items-center">
+          +54 9 116565-6565 / 0800 000-00000 / caritasantoslugares.org.ar
+        </div>
+        <div class="align-items-center mt-3">
+          Donación sitio Web Desarrollado por Lovelace Digital Arts
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Separate Popper and Bootstrap JS --------------------------------------------------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
