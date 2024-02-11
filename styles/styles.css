@@ -239,6 +239,33 @@ footer{
     h2, h3, h4, h5 {
         font-size: 16px;
     }
+
+    .col-lg {
+        text-align: center;
+    }
+
+    #imgFormasColaborar, #imgDondeEstamos, #imgBotonContactanos {
+        margin-top: 30%;
+        width: 40% !important;
+    }
+
+    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+        width: 40% !important;
+        padding: 2%;
+    }
+
+    #imgAbajoConsultas {
+        width: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .btn-danger {
+        --bs-btn-padding-y: .25rem; 
+        --bs-btn-padding-x: .5rem; 
+        --bs-btn-font-size: .75rem;
+    }
+    
   }
   
   /* Estilos para escritorio */
