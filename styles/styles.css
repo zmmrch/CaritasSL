@@ -202,6 +202,11 @@ footer{
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
 
+    h1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
     h2, h3 {
       font-size: 12px;
     }
@@ -240,6 +245,12 @@ footer{
   
   /* Estilos para tablets */
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     h2, h3 {
         font-size: 16px;
     }
@@ -278,8 +289,19 @@ footer{
   
   /* Estilos para escritorio */
   @media only screen and (min-width: 1025px) {
-    h2, h3, h4, h5 {
-        font-size: 40px;
+
+    h1 {
+        color: #114E87;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    h2, h3 {
+        font-size: 34px;
+    }
+
+    h4, h5 {
+        font-size: 24px;
     }
 
     #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
