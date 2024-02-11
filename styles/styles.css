@@ -30,6 +30,12 @@ Rojo = #A72124
     font-size: 2.0vw;
 }
 
+/* @media (min-width: 440px){
+    h2 {
+        font-size: 80%;
+    }
+} */
+
 .h5 {
     color:#114E87;
     font-size: 1.0vw;
@@ -66,11 +72,6 @@ Rojo = #A72124
     filter: grayscale(100%);
 }
 
-/* @media (min-width: 288px){
-    #btnAsistSocial {
-        width: 50em;
-    }
-} */
 
 #btnAsistComida:hover {
     filter: grayscale(100%);
@@ -198,22 +199,56 @@ footer{
 }
 
  
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
 
-/*@media (min-width: 768px){
-    .h2 {
-        font-size: 2r%;
-     }
-}
+    h2, h3, h4, h5 {
+      font-size: 12px;
+    }
 
-@media (min-width: 576px){
-    .h2 {
-        font-size: 1r%;
-     }
-}
+    .col-lg {
+        text-align: center;
+    }
 
-@media (min-width: 288px){
-    .h2 {
-        font-size: 1r%;
-     }
-} */
+    #imgFormasColaborar, #imgDondeEstamos, #imgBotonContactanos {
+        margin-top: 30%;
+        width: 40% !important;
+    }
 
+    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+        width: 40% !important;
+        padding: 2%;
+    }
+
+    #imgAbajoConsultas {
+        width: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .btn-danger {
+        --bs-btn-padding-y: .25rem; 
+        --bs-btn-padding-x: .5rem; 
+        --bs-btn-font-size: .75rem;
+    }
+
+  }
+  
+  /* Estilos para tablets */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    h2, h3, h4, h5 {
+        font-size: 16px;
+    }
+  }
+  
+  /* Estilos para escritorio */
+  @media only screen and (min-width: 1025px) {
+    h2, h3, h4, h5 {
+        font-size: 40px;
+    }
+
+    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+        margin-top: 2%;
+        padding: 8%;
+    }
+  }
