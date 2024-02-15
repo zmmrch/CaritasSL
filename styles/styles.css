@@ -174,6 +174,20 @@ Rojo = #A72124
     background-size:cover;
 }
 
+#contenidoQueHacemos {
+    background-image: url("../images/que_hacemos/FONDO\ COMPLETO\ QUE\ HACEMOS\ 1400\ x\ 6333\,0262\ px.png");
+    /* height: 50%; */
+    /* background-attachment: fixed; */
+    width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.btn-primary {
+    background-color: #114E87 !important;
+}
+
 /* .parallax {
     background-image: url("../images/quienes_somos/FOTO\ PRINCIPAL\ QUIENES\ SOMOS\ 1400\ X\ 410px.jpg");
   
@@ -191,6 +205,16 @@ footer{
     color: white;
     font-size: 2.5vw;
 }
+
+.subir {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: red;
+    padding: 20px;
+    box-shadow: 0 0 5px white, 0 0 5px white;
+    color: white;
+  }
 
 @media (min-width: 1200px){
     .footer {
@@ -240,6 +264,17 @@ footer{
         --bs-btn-padding-x: .5rem; 
         --bs-btn-font-size: .75rem;
     }
+
+    .btn-lg {
+        --bs-btn-font-size: 50%;
+    
+    }
+
+    .btn-primary {
+        --bs-btn-font-size: 40%;
+    }
+
+
 
   }
   
