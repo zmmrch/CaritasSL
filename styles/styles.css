@@ -184,8 +184,32 @@ Rojo = #A72124
     background-size:cover;
 }
 
+#contenidoComoParticipar {
+    background-image: url("../images/como_participar/FONDO\ COMPLETO\ COMO\ PARTICIPAR\ 1400\ x\ 7444\,02\ px.png");
+    /* height: 50%; */
+    /* background-attachment: fixed; */
+    width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+#contenidoCaritasSocial {
+    background-image: url("../images/caritas_social/FONDO\ COMPLETO\ CARITAS\ SOCIAL\ 1400\ x\ 1344\,62\ px.png");
+    /* height: 50%; */
+    /* background-attachment: fixed; */
+    width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
 .btn-primary {
     background-color: #114E87 !important;
+}
+
+.btn-primary:hover {
+    background-color:#A72124 !important;
 }
 
 /* .parallax {
