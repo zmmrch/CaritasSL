@@ -95,11 +95,11 @@ Rojo = #A72124
 
 
 #c_nuestraLabor {
-    background-image: url("../images/HOMEFONDO1\ \(1400X1396\,7685\).png");
+    background-image: url("../images/FONDO\ HOME\ 1\ -\ 1400x1112\,1833\ px.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 10%;
 }
 
@@ -111,21 +111,20 @@ Rojo = #A72124
 } */
 
 #c_noticias {
-    background-image: url("../images/HOMEFONDO2\ \(1400X759\,2612\).png");
+    background-image: url("../images/FONDO\ HOME\ 2\ -\ 1400x756\,4196\ px.png");
     background-repeat:no-repeat;
-    background-size: cover;
-    background-position: top center;
-    padding-top: 10%;
+    background-size:cover;
+    background-position: center;
+    padding-top: 14%;
     padding-bottom: 15%;
 }
 
 #c_consultas {
-    background-image: url("../images/HOMEFONDO1\ \(1400X1396\,7685\).png");
+    background-image: url("../images/FONDO\ HOME\ 3\ -\ 1400x818\,246\ px.png");
     background-repeat:no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     padding-top: 6%;
-    padding-bottom: 5%;
 }
 
 #imgFormasColaborar {
@@ -166,11 +165,9 @@ Rojo = #A72124
 
 #contenidoQuienesSomos {
     background-image: url("../images/quienes_somos/FONDO\ COMPLETO\ QUIENES\ SOMOS\ 1400\ x\ 2524\,4099\ px.png");
-    /* height: 50%; */
-    /* background-attachment: fixed; */
     width: 100%;
+    height: auto;
     background-position: top;
-    background-repeat: repeat;
     background-size:cover;
 }
 
@@ -225,18 +222,25 @@ Rojo = #A72124
 
 
 footer{
-    background-color: #A72124; 
+    /*background-color: #A72124; */
+    background-image: url("../images/FOOTER\ 1400X\ 252\,8067\ px.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
     color: white;
     font-size: 2.5vw;
+    padding-top: 7%;
+    padding-bottom: 4%;
 }
 
 .subir {
     position: fixed;
     right: 40px;
     bottom: 40px;
-    background-color: red;
-    padding: 20px;
-    box-shadow: 0 0 5px white, 0 0 5px white;
+    background-color: #114E87;
+    padding: 50px;
+    /*box-shadow: 0 0 5px white, 0 0 5px white;*/
     color: white;
   }
 
@@ -265,6 +269,8 @@ footer{
 
     .col-lg {
         text-align: center;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
     }
 
     #imgFormasColaborar, #imgDondeEstamos, #imgBotonContactanos {
@@ -355,12 +361,20 @@ footer{
         font-weight: bold;
     }
 
-    h2, h3 {
-        font-size: 34px;
+    h2 {
+        font-size: 40px;
     }
 
-    h4, h5 {
-        font-size: 24px;
+    h3 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 20px;
     }
 
     #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
