@@ -30,12 +30,6 @@ Rojo = #A72124
     font-size: 2.0vw;
 }
 
-/* @media (min-width: 440px){
-    h2 {
-        font-size: 80%;
-    }
-} */
-
 .h5 {
     color:#114E87;
     font-size: 1.0vw;
@@ -59,10 +53,6 @@ Rojo = #A72124
 .nav-link:hover {
     color:red;
 }
-
-/* #navbarCaritas {
-    background-color: rgb(58, 54, 54) !important;
-} */
 
 #logoNavbar {
     width: 65%;
@@ -103,13 +93,6 @@ Rojo = #A72124
     padding-bottom: 10%;
 }
 
-/* @media (min-width: 288px){
-    #c_nuestraLabor {
-        background-size: contain;
-        background-repeat: repeat;
-    }
-} */
-
 #c_noticias {
     background-image: url("../images/FONDO\ HOME\ 2\ -\ 1400x756\,4196\ px.png");
     background-repeat:no-repeat;
@@ -129,9 +112,6 @@ Rojo = #A72124
 
 #imgFormasColaborar {
     margin-top: 64%;
-    /* margin-left: 10%; */
-    /* padding-top: 8%;
-    padding-bottom: 25%;   */
     width: 100%;
 }
 
@@ -142,8 +122,6 @@ Rojo = #A72124
 
 #imgBotonContactanos {
     margin-top: 41%;
-    /* margin-right: 10%; */
-    /* padding-top: 1%; */
     width: 100%;
 }
 
@@ -173,8 +151,6 @@ Rojo = #A72124
 
 #contenidoQueHacemos {
     background-image: url("../images/que_hacemos/FONDO\ COMPLETO\ QUE\ HACEMOS\ 1400\ x\ 5418\ px.png");
-    /* height: 50%; */
-    /* background-attachment: fixed; */
     width: 100%;
     background-position: top;
     background-repeat: repeat;
@@ -182,9 +158,7 @@ Rojo = #A72124
 }
 
 #contenidoComoParticipar {
-    background-image: url("../images/como_participar/FONDO\ COMPLETO\ COMO\ PARTICIPAR\ 1400\ x\ 7444\,02\ px.png");
-    /* height: 50%; */
-    /* background-attachment: fixed; */
+    background-image: url("../images/como_participar/FONDO\ COMPLETO\ COMO\ PARTICIPAR\ 1400\ x\ 6647\ px.png");
     width: 100%;
     background-position: top;
     background-repeat: repeat;
@@ -192,9 +166,7 @@ Rojo = #A72124
 }
 
 #contenidoCaritasSocial {
-    background-image: url("../images/caritas_social/FONDO\ COMPLETO\ CARITAS\ SOCIAL\ 1400\ x\ 1344\,62\ px.png");
-    /* height: 50%; */
-    /* background-attachment: fixed; */
+    background-image: url("../images/caritas_social/FONDO\ COMPLETO\ CARITAS\ SOCIAL\ 1400\ x\ 1363\ px.png");
     width: 100%;
     background-position: top;
     background-repeat: repeat;
@@ -222,7 +194,6 @@ Rojo = #A72124
 
 
 footer{
-    /*background-color: #A72124; */
     background-image: url("../images/FOOTER\ 1400X\ 252\,8067\ px.png");
     width: 100%;
     background-position: center;
@@ -238,10 +209,6 @@ footer{
     position: fixed;
     right: 40px;
     bottom: 40px;
-    background-color: #114E87;
-    padding: 50px;
-    /*box-shadow: 0 0 5px white, 0 0 5px white;*/
-    color: white;
   }
 
 @media (min-width: 1200px){
