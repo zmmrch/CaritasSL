@@ -25,21 +25,22 @@ a {
 }
 
 .h1 {
-    color:#114E87;
+    color: #114E87;
     font-size: 2.5vw;
 }
 
 .h2 {
-    color:#114E87;
+    color: #114E87;
     font-size: 2.0vw;
 }
 
 .h5 {
-    color:#114E87;
+    color: #114E87;
     font-size: 1.0vw;
 }
 
-.h4, .h3 {
+.h4,
+.h3 {
     font-size: 1.5vw;
 }
 
@@ -49,13 +50,13 @@ a {
 }
 
 .nav-item {
-    display: flex; 
-    justify-content: space-between;  
+    display: flex;
+    justify-content: space-between;
     padding: 0 70px;
 }
 
 .nav-link:hover {
-    color:red;
+    color: red;
 }
 
 #logoNavbar {
@@ -99,8 +100,8 @@ a {
 
 #c_noticias {
     background-image: url("../images/FONDO\ HOME\ 2\ -\ 1400x756\,4196\ px.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding-top: 14%;
     padding-bottom: 15%;
@@ -108,7 +109,7 @@ a {
 
 #c_consultas {
     background-image: url("../images/FONDO\ HOME\ 3\ -\ 1400x818\,246\ px.png");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-top: 6%;
@@ -129,19 +130,26 @@ a {
     width: 100%;
 }
 
-.logoImgPrincipal{
-  position:absolute;
-  height:auto;
-  width: auto;
-  z-index: 1;
+.logoImgPrincipal {
+    position: absolute;
+    height: auto;
+    width: auto;
+    z-index: 1;
 }
 
-.imgPrincipal
-{
-  position:absolute;
-  height:auto;
-  width:100%;
-  z-index: -1;
+.imgPrincipal {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+iframe {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    margin-bottom: 5%;    
 }
 
 
@@ -150,7 +158,7 @@ a {
     width: 100%;
     height: auto;
     background-position: top;
-    background-size:cover;
+    background-size: cover;
 }
 
 #contenidoQueHacemos {
@@ -158,7 +166,7 @@ a {
     width: 100%;
     background-position: top;
     background-repeat: repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 #contenidoComoParticipar {
@@ -166,7 +174,7 @@ a {
     width: 100%;
     background-position: top;
     background-repeat: repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 #contenidoCaritasSocial {
@@ -174,7 +182,15 @@ a {
     width: 100%;
     background-position: center;
     background-repeat: repeat;
-    background-size:cover;
+    background-size: cover;
+}
+
+#dondeEstamos {
+    background-image: url("../images/donde_estamos/FONDO\ COMPLETO\ DONDE\ ESTAMOS\ 1400\ x\ 1510\ px.png");
+    width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .btn-primary {
@@ -182,7 +198,7 @@ a {
 }
 
 .btn-primary:hover {
-    background-color:#A72124 !important;
+    background-color: #A72124 !important;
 }
 
 /* .parallax {
@@ -197,12 +213,12 @@ a {
   } */
 
 
-footer{
+footer {
     background-image: url("../images/FOOTER\ 1400X\ 252\,8067\ px.png");
     width: 100%;
     background-position: center;
     background-repeat: repeat;
-    background-size:cover;
+    background-size: cover;
     color: white;
     font-size: 2.5vw;
     padding-top: 7%;
@@ -213,15 +229,15 @@ footer{
     position: fixed;
     right: 40px;
     bottom: 40px;
-  }
+}
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .footer {
         font-size: 1vw;
     }
 }
 
- 
+
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
 
@@ -230,11 +246,13 @@ footer{
         font-weight: bold;
     }
 
-    h2, h3 {
-      font-size: 12px;
+    h2,
+    h3 {
+        font-size: 12px;
     }
 
-    h4, h5 {
+    h4,
+    h5 {
         font-size: 10px;
     }
 
@@ -244,12 +262,19 @@ footer{
         padding-right: 5% !important;
     }
 
-    #imgFormasColaborar, #imgDondeEstamos, #imgBotonContactanos {
+    #imgFormasColaborar,
+    #imgDondeEstamos,
+    #imgBotonContactanos {
         margin-top: 30%;
         width: 40% !important;
     }
 
-    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+    #btnAsistSocial,
+    #btnAsistComida,
+    #btnAsistRopa,
+    #btnAsistPereg,
+    #btnAsistONG,
+    #btnCaritasSocial {
         width: 40% !important;
         padding: 2%;
     }
@@ -261,37 +286,53 @@ footer{
     }
 
     .btn-danger {
-        --bs-btn-padding-y: .25rem; 
-        --bs-btn-padding-x: .5rem; 
+        --bs-btn-padding-y: .25rem;
+        --bs-btn-padding-x: .5rem;
         --bs-btn-font-size: .75rem;
     }
 
     .btn-lg {
         --bs-btn-font-size: 50%;
-    
+
     }
 
     .btn-primary {
         --bs-btn-font-size: 40%;
     }
 
+    footer {
+        font-size: 1.5vw; 
+        margin-top: 1%;
+    }
 
+    .bi {
+        font-size: 14px;
+    }
 
-  }
-  
-  /* Estilos para tablets */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #politicaFooter {
+        padding-top: 5%;
+    }
+
+    .subir {
+        font-size: 2rem;
+    }
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     h1 {
         font-size: 18px;
         font-weight: bold;
     }
 
-    h2, h3 {
+    h2,
+    h3 {
         font-size: 16px;
     }
 
-    h4, h5 {
+    h4,
+    h5 {
         font-size: 14px;
     }
 
@@ -299,12 +340,19 @@ footer{
         text-align: center;
     }
 
-    #imgFormasColaborar, #imgDondeEstamos, #imgBotonContactanos {
+    #imgFormasColaborar,
+    #imgDondeEstamos,
+    #imgBotonContactanos {
         margin-top: 30%;
         width: 40% !important;
     }
 
-    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+    #btnAsistSocial,
+    #btnAsistComida,
+    #btnAsistRopa,
+    #btnAsistPereg,
+    #btnAsistONG,
+    #btnCaritasSocial {
         width: 40% !important;
         padding: 2%;
     }
@@ -316,19 +364,19 @@ footer{
     }
 
     .btn-danger {
-        --bs-btn-padding-y: .25rem; 
-        --bs-btn-padding-x: .5rem; 
+        --bs-btn-padding-y: .25rem;
+        --bs-btn-padding-x: .5rem;
         --bs-btn-font-size: .75rem;
     }
 
-  }
-  
-  /* Estilos para escritorio */
-  @media only screen and (min-width: 1025px) {
+}
+
+/* Estilos para escritorio */
+@media only screen and (min-width: 1025px) {
 
     h1 {
         color: #114E87;
-        font-size: 50px;
+        font-size: 80px;
         font-weight: bold;
     }
 
@@ -348,8 +396,13 @@ footer{
         font-size: 20px;
     }
 
-    #btnAsistSocial, #btnAsistComida, #btnAsistRopa, #btnAsistPereg, #btnAsistONG, #btnCaritasSocial {
+    #btnAsistSocial,
+    #btnAsistComida,
+    #btnAsistRopa,
+    #btnAsistPereg,
+    #btnAsistONG,
+    #btnCaritasSocial {
         margin-top: 2%;
         padding: 8%;
     }
-  }
+}
