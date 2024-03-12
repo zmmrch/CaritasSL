@@ -200,6 +200,13 @@ iframe {
     background-size: cover;
 }
 
+#quieroDonar {
+    background-image: url("../images/quiero_donar/FONDO\ QUIERO\ DONAR\ 1400\ x\ 1499\ px.png");
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
 .btn-primary {
     background-color: #114E87 !important;
 }
