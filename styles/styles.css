@@ -180,7 +180,7 @@ iframe {
 #contenidoCaritasSocial {
     background-image: url("../images/caritas_social/FONDO\ COMPLETO\ CARITAS\ SOCIAL\ 1400\ x\ 1363\ px.png");
     width: 100%;
-    background-position: center;
+    background-position: top;
     background-repeat: repeat;
     background-size: cover;
 }
@@ -188,6 +188,13 @@ iframe {
 #dondeEstamos {
     background-image: url("../images/donde_estamos/FONDO\ COMPLETO\ DONDE\ ESTAMOS\ 1400\ x\ 1510\ px.png");
     width: 100%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#solicitarAsistencia {
+    background-image: url("../images/solicitar_asistencia/FONDO\ COMPLETO\ SOLICITAR\ ASISTENCIA\ 1400\ x\ 1727\ px.png");
     background-position: top;
     background-repeat: repeat;
     background-size: cover;
@@ -381,7 +388,7 @@ footer {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h3 {
@@ -404,5 +411,9 @@ footer {
     #btnCaritasSocial {
         margin-top: 2%;
         padding: 8%;
+    }
+
+    .subir {
+        font-size: 80px;
     }
 }
