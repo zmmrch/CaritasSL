@@ -219,7 +219,7 @@ iframe {
     display: grid;
     grid-template-columns: 400px 400px 400px 400px 400px;
     grid-column-gap: 80px;
-    margin-left: 10%;
+    margin-left: 5%;
     align-self: end;
 }
 
@@ -335,7 +335,6 @@ footer {
         display: grid;
         grid-template-columns: 200px 200px;
         grid-column-gap: 40px;
-        margin-left: 5%;
         align-self: end;
     }
 
