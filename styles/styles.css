@@ -333,14 +333,14 @@ footer {
 
     .botonesQueHacemos {
         display: grid;
-        grid-template-columns: 190px 190px;
+        grid-template-columns: 180px 180px;
         grid-column-gap: 40px;
         align-self: end;
     }
 
     .botonesQueHacemosBuffetEventos {
         display: grid;
-        grid-template-columns: 180px 180px;
+        grid-template-columns: 160px 160px;
         grid-column-gap: 80px;
         align-self: end;
     }
