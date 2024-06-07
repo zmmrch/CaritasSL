@@ -367,14 +367,16 @@ footer {
 
     .botonesQueHacemosBuffetEventos {
         display: grid;
-        grid-template-columns: 160px 160px;
-        grid-column-gap: 80px;
-        align-self: end;
+        grid-template-columns: 167px 167px 160px;
+        grid-row-gap: 10px;
+        padding-top: 2%;
+        justify-items: center;
+        justify-content: center;
     }
 
     .botonesContactoColaborarDondeEstamos {
         display: grid;
-        grid-template-columns: 160px 160px 160px;
+        grid-template-columns: 167px 167px 160px;
         grid-row-gap: 10px;
         padding-top: 2%;
         justify-items: center;
