@@ -215,6 +215,15 @@ iframe {
     background-color: #A72124 !important;
 }
 
+.botonesPaginaPrincipal {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 5%;
+    grid-row-gap: 40px;
+    padding-top: 2%;
+    padding-left: 30%;
+}
+
 .botonesQueHacemos {
     display: grid;
     grid-template-columns: 400px 400px 400px 400px 400px;
@@ -329,6 +338,14 @@ footer {
 
     #politicaFooter {
         padding-top: 5%;
+    }
+
+    .botonesPaginaPrincipal {
+        display: grid;
+        grid-template-columns: 180px 180px 180px;
+        grid-column-gap: 5%;
+        grid-row-gap: 40px;
+        padding-top: 2%;
     }
 
     .botonesQueHacemos {
