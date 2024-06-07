@@ -342,7 +342,7 @@ footer {
 
     .botonesPaginaPrincipal {
         display: grid;
-        grid-template-columns: 180px 180px 180px;
+        grid-template-columns: 180px 180px;
         grid-column-gap: 5%;
         grid-row-gap: 40px;
         padding-top: 2%;
