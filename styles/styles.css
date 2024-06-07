@@ -333,7 +333,7 @@ footer {
 
     .botonesQueHacemos {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 190px 190px;
         grid-column-gap: 40px;
         align-self: end;
     }
@@ -342,7 +342,7 @@ footer {
         display: grid;
         grid-template-columns: 180px 180px;
         grid-column-gap: 80px;
-        margin-left: 10%;
+        margin-left: 5%;
         align-self: end;
     }
 
