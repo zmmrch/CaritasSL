@@ -88,7 +88,6 @@ a {
     filter: grayscale(100%);
 }
 
-
 #c_nuestraLabor {
     background-image: url("../images/FONDO\ HOME\ 1\ -\ 1400x1112\,1833\ px.png");
     background-repeat: no-repeat;
@@ -151,7 +150,6 @@ iframe {
     display: block;
     margin-bottom: 5%;
 }
-
 
 #contenidoQuienesSomos {
     background-image: url("../images/quienes_somos/FONDO\ COMPLETO\ QUIENES\ SOMOS\ 1400\ x\ 2524\,4099\ px.png");
@@ -217,11 +215,22 @@ iframe {
 
 .botonesPaginaPrincipal {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-column-gap: 5%;
-    grid-row-gap: 40px;
+    grid-template-columns: 600px 600px 600px;
+    grid-column-gap: 4%;
+    grid-row-gap: 1%;
     padding-top: 2%;
-    padding-left: 30%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.botonesContactoColaborarDondeEstamos {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-column-gap: 4%;
+    grid-row-gap: 1%;
+    padding-top: 2%;
+    justify-content: center;
+    justify-items: center;
 }
 
 .botonesQueHacemos {
@@ -289,14 +298,14 @@ footer {
         padding-right: 5% !important;
     }
 
-    #imgFormasColaborar,
+    /*#imgFormasColaborar,
     #imgDondeEstamos,
     #imgBotonContactanos {
         margin-top: 30%;
         width: 40% !important;
-    }
+    }*/
 
-    #btnAsistSocial,
+    /* #btnAsistSocial,
     #btnAsistComida,
     #btnAsistRopa,
     #btnAsistPereg,
@@ -304,7 +313,7 @@ footer {
     #btnCaritasSocial {
         width: 40% !important;
         padding: 2%;
-    }
+    } */
 
     #imgAbajoConsultas {
         width: 80%;
@@ -342,10 +351,11 @@ footer {
 
     .botonesPaginaPrincipal {
         display: grid;
-        grid-template-columns: 180px 180px;
-        grid-column-gap: 5%;
-        grid-row-gap: 40px;
+        grid-template-columns: 200px 200px;
+        grid-row-gap: 10px;
         padding-top: 2%;
+        justify-items: center;
+        justify-content: center;
     }
 
     .botonesQueHacemos {
@@ -360,6 +370,15 @@ footer {
         grid-template-columns: 160px 160px;
         grid-column-gap: 80px;
         align-self: end;
+    }
+
+    .botonesContactoColaborarDondeEstamos {
+        display: grid;
+        grid-template-columns: 160px 160px 160px;
+        grid-row-gap: 10px;
+        padding-top: 2%;
+        justify-items: center;
+        justify-content: center;
     }
 
     #imagenQueHacemos {
