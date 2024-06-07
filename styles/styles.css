@@ -215,17 +215,21 @@ iframe {
     background-color: #A72124 !important;
 }
 
-/* .parallax {
-    background-image: url("../images/quienes_somos/FOTO\ PRINCIPAL\ QUIENES\ SOMOS\ 1400\ X\ 410px.jpg");
-  
-     height: 100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+.botonesQueHacemos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+    grid-column-gap: 80px;
+    margin-left: 10%;
+    align-self: end;
+}
 
+.botonesQueHacemosBuffetEventos {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-column-gap: 80px;
+    margin-left: 35%;
+    align-self: end;
+}
 
 footer {
     background-image: url("../images/FOOTER\ 1400X\ 252\,8067\ px.png");
@@ -256,18 +260,18 @@ footer {
 @media only screen and (max-width: 768px) {
 
     h1 {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
     }
 
     h2,
     h3 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     h4,
     h5 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .col-lg {
@@ -325,6 +329,25 @@ footer {
 
     #politicaFooter {
         padding-top: 5%;
+    }
+
+    .botonesQueHacemos {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-column-gap: 40px;
+        margin-left: 10%;
+        align-self: end;
+    }
+
+    .botonesQueHacemosBuffetEventos {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-column-gap: 80px;
+        margin-left: 10%;
+        align-self: end;
+    }
+
+    #imagenQueHacemos {
     }
 
     .subir {
