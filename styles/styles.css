@@ -235,18 +235,17 @@ iframe {
 
 .botonesQueHacemos {
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px 400px;
+    grid-template-columns: 500px 500px 500px 500px 500px;
     grid-column-gap: 80px;
     margin-left: 1%;
-    align-self: end;
+    justify-content: center;
 }
 
 .botonesQueHacemosBuffetEventos {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-column-gap: 80px;
-    margin-left: 50%;
-    align-self: end;
+    margin-left: 35%;
 }
 
 footer {
@@ -297,23 +296,6 @@ footer {
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
-
-    /*#imgFormasColaborar,
-    #imgDondeEstamos,
-    #imgBotonContactanos {
-        margin-top: 30%;
-        width: 40% !important;
-    }*/
-
-    /* #btnAsistSocial,
-    #btnAsistComida,
-    #btnAsistRopa,
-    #btnAsistPereg,
-    #btnAsistONG,
-    #btnCaritasSocial {
-        width: 40% !important;
-        padding: 2%;
-    } */
 
     #imgAbajoConsultas {
         width: 80%;
@@ -370,16 +352,16 @@ footer {
     .botonesQueHacemosBuffetEventos {
         display: grid;
         grid-template-columns: 167px 167px 160px;
-        grid-row-gap: 10px;
-        padding-top: 2%;
-        padding-left: 2%;
+        grid-row-gap: 5px;
+        padding-top: 4%;
+        padding-left: 4%;
         justify-items: center;
         justify-content: center;
     }
 
     .botonesContactoColaborarDondeEstamos {
         display: grid;
-        grid-template-columns: 167px 167px 160px;
+        grid-template-columns: 120px 100px 120px;
         grid-row-gap: 10px;
         padding-top: 2%;
         justify-items: center;
