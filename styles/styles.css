@@ -290,10 +290,10 @@ footer {
     h4,
     h5 {
         font-size: 12px;
+        text-align: left !important;
     }
 
     .col-lg {
-        text-align: center;
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
@@ -354,6 +354,8 @@ footer {
         grid-template-columns: 200px 200px;
         grid-row-gap: 10px;
         padding-top: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
         justify-items: center;
         justify-content: center;
     }
@@ -370,6 +372,7 @@ footer {
         grid-template-columns: 167px 167px 160px;
         grid-row-gap: 10px;
         padding-top: 2%;
+        padding-left: 2%;
         justify-items: center;
         justify-content: center;
     }
