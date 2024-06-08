@@ -354,7 +354,7 @@ footer {
         grid-template-columns: 167px 167px 160px;
         grid-row-gap: 5px;
         padding-top: 4%;
-        padding-left: 4%;
+        padding-left: 10%;
         justify-items: center;
         justify-content: center;
     }
