@@ -248,6 +248,22 @@ iframe {
     margin-left: 35%;
 }
 
+.botonesComoParticipar {
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-column-gap: 80px;
+    margin-left: 1%;
+    justify-content: center;
+}
+
+.botonesComoParticipar2 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-column-gap: 80px;
+    margin-top: 5%;
+    justify-content: center;
+}
+
 footer {
     background-image: url("../images/FOOTER\ 1400X\ 252\,8067\ px.png");
     width: 100%;
@@ -358,6 +374,22 @@ footer {
         justify-content: center;
     }
 
+    .botonesComoParticipar {
+        display: grid;
+        grid-template-columns: 160px 160px 160px 160px;
+        grid-column-gap: 40px;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .botonesComoParticipar2 {
+        display: grid;
+        grid-template-columns: 160px 160px 160px;
+        grid-column-gap: 40px;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
     .botonesContactoColaborarDondeEstamos {
         display: grid;
         grid-template-columns: 120px 100px 120px;
@@ -367,9 +399,6 @@ footer {
         justify-content: center;
         padding-left: 10%;
         padding-right: 10%;
-    }
-
-    #imagenQueHacemos {
     }
 
     .subir {
