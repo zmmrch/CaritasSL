@@ -4,22 +4,6 @@ Azul = #114E87
 Rojo = #A72124
 */
 
-/* .container {
-    display: flex;
-} */
-
-/* body{
-    transform: scale(0.7);
-    transform-origin: 0 0;
- } */
-
-
-/* h2 {
-    color:#114E87;
-    text-align: center;
-    padding-top: 1%;
-} */
-
 a {
     text-decoration: none;
 }
@@ -279,6 +263,12 @@ footer {
 .subir {
     position: fixed;
     right: 40px;
+    bottom: 40px;
+}
+
+.wtsp {
+    position: fixed;
+    right: 150px;
     bottom: 40px;
 }
 
