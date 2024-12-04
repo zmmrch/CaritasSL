@@ -273,6 +273,15 @@ footer {
     bottom: 40px;
 }
 
+#h1_novedades {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1rem !important;
+    color: #114e87;
+}
+
 @media (min-width: 1200px) {
     .footer {
         font-size: 1vw;
@@ -396,6 +405,12 @@ footer {
         color: #06742b !important;
         right: 100px;
     }
+
+    #h1_novedades {
+        text-align: center !important;
+        color: white !important;
+    }
+    
 }
 
 /* Estilos para tablets */
